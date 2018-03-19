@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Arsenal|Copse" rel="stylesheet">
+		<link rel="shortcut icon" href="../Images/favicon.ico" type="image/x-icon">
+		<title> Hello World </title>
+	</head>
+	
+<body>
+		<script src="../JavaScript/jquery-3.1.1.min.js"></script>
+		<script src="../JavaScript/javascript.js"></script>
+	<center>
+	<h1> Report </h1> <br>
+		<ul> <li> <a href="index.html"> Home </a> </li> </ul>
+		<ul> <li> <a href="about.html"> About </a> </li> </ul>
+		<ul> <li> <a href="contact.html"> Contact </a> </li> </ul>
+		<ul> <li> <a href="report.html"> Report </a> </li> </ul>
+	</center>
+
+<br>
+<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+					<p>The live version of my site can be found at <a href="http://doc.gold.ac.uk/~mmaso004/webdev/Pages/report.html">http://doc.gold.ac.uk/~mmaso004/webdev/Pages/report.html</a> .</p>
+				<h3>State 3 things that have inspired you when creating your website.</h3> 
+					<p>Few websites inspired me when creating my website. First off, the <a href="http://assassinscreed.wikia.com/wiki/Assassin%27s_Creed_Wiki"> Assassin's Creed Wikia </a>, designed by editors of the wiki, inspired my choice of a darker, semi-transparent background. I personally really enjoy the Wikia website layout, with the content centered, and the navbar at the top, with an aesthetically pleasing colour palette of similar dark colours, and rounded borders of the homepage.</p>
+					<p>A second website that somewhat inspired my design is <a href="http://www.ferryhalim.com/orisinal/">Ferry Halim</a>. A link to the creators portfolio website can be found at the bottom of the page, which keeps the same pastel, minimalistic, and slightly transparent look overall. I particularly liked the white borders around the game images, which I included in my own site design, and the fact that the content is only taking up the very center of the screen, rather than the majority of it.</p>
+					<p>The third website that has inspired my website design is none other than <a href="https://www.nasa.gov/">the NASA website</a>. It contains a starry night sky background, an inspiration for my background of choice, as well as navbar transitions on hover, with the navbar on top. The text colour throughout the website is also contrasting, a bright white against a darker grey, inspiring my colour palette.</p>
+
+				<h3>State 3 ways in which your site is accessible.</h3>
+					<p>My site is accessible in various ways. To start, I have included alt tags in all images on my site, with descriptive names of the images. Alt tags will inform viewers what the image is of if the image itself doesn't load, thus also making the site more accessible by it not being entirely dependent on images.</p>
+					<p>For the border-radius variable in my main.css code, I have also added -moz-border-radius, and -webkit-border-radius, which although unneccessary for the current versions of said browsers, it adds support for older Firefox and Safari browsers, to make the rounded borders accessible to users with such browsers.</p>
+					<p>Lastly, a few things such as having decently sized text (so users can read the site easily), having the headings in order (h1, h2 etc.), and making use of Bootstraps columns for different size screens, as well as auto-ing the width of different objects, all help make my website more accessible to users.</p>
+					
+				<h3>State 3 ways in which you have considered usability in your site.</h3>
+					<p>Firstly, I considered usability in my site by checking that all of the hyperlinks work, no dead links. I also added window.onload to my javascript.js file to ensure that the javascript code is only run once the page has loaded.</p>
+					<p>Throughout the making of my site, I ensured simplicity, familiarity, and consistency with the design (the same layout on each page), so the user finds it easier to navigate, and feels more comfortable knowing the design is familiar to many other sites they will have used before. For example, the navbar is located at the top of each page, making it the first thing the user sees, giving easy access to other pages on the site. The navbar also takes into consideration navigational hierachy, with the Home link being the first link, as it is the most important, and working its way down from there. </p>
+
+				<h3>State 3 things you had to learn/find out by yourself when creating your site, and describe how you did that.</h3> 
+					<p>For the making of my site, I had to look up various things to do with the design of it. To start with, once I had organised all my files neatly into folders I could not recall how to navigate up through different files, which I needed to find out in order to link each file together. I simply Googled how to do this, and quickly found the answer (../).</p>
+					<p>Another technique I had not yet had experience with was gif-making (to make a gif of my snake game in action). So again, I went to Google to first find out how to record my own screen. Luckily, Windows 10 has a built in game-recorder (available by pressing the Windows key + G), so once my snake game in P5 was open, I took a short recording of myself demo-ing it, and uploaded the video on a basic gif-making website I found online(as I do not have access to costly and more experienced gif-making programs such as Adobe). </p>
+					<p>Finally, I came across a problem when placing my content into Bootstrap columns - images were not centered, and thus looked somewhat messy. Stackoverflow contained the answer to my query, informing me of Bootstraps 'center-block' class that I was able to include in my img tags. </p>
+
+				<h3>What aspect(s) of your work do you think worked well and why?</h3>
+					<p>My navigation bar is some custom CSS code that I am particularly fond of. I think it looks simplistic, yet stylish, incorporating animation transition on hover, transparency, and border radius. I am also pleased with how the use of the Snake image with JS, and the gif of my snake game, look. Although the actual game isn't included on the site, it is nice to have a visual demonstration of how it would otherwise work.</p>
+					<p>Albeit minimal, my use of JavaScript fits in with the minimalism of my site design, with the title and image on the home page changing upon click. It is not obtrusive, as to potentially put the user off of delving further into my site, instead adds a nice touch with simple interactivity should the user wish.</p>
+					<p>To end with, I think the general overall design of my site worked well, with it being simplistic, minimalistic, yet stylish, so the user can easily read the content, especially with contrasting text colours (and a complementing colour palette) and image borders against the dark background. The site isn't overloaded with images, but includes a few to make it more visually pleasing. The background itself is also simple, but not plain, as to keep the website from potentially appearing too boring.</p>
+
+				<h3>What aspect(s) of your work could be improved, and how might you do things differently another time?</h3>
+					<p>There are multiple things I would potentially do differently next time, would I be to either expand this current site, or create a new one. First off, I would fix the position of my heading title, as well as the navbar, on each page, so they did not move with the users scrolling. In doing this however, I would either change the div container in which the text is contained, to have a scrollbar itself, or to extend it so the navbar and header are included within it.</p>
+					<p>Another improvement I could make is to make the email link on the home page of my site, more easily readable. Unfortunately I tested changing it, including text-decoration:none; in a style tag with it, to no avail. I also looked into the possibility of actually including my p5 snake game on my website, however found out that it would not be possible unless the game and website were already hosted on a server.</p>
+					<p>Further ways to change my site would be to include more content that would be enough to encompass a breadcrumb trail within my navbar. I would also like to include more interactivity on my site, with further animations, and redesign my website to have more opportunities for the use of JavaScript (such as custom JS).</p>
+
+				<h3>What resources were used when creating your work?</h3>
+					<p>I will note down the various sources of information I used in my website creation below:</p>
+					<h4>JavaScript</h4>
+					<p>[1] Author Unknown, 'jQuery Effects - Hide and Show', Year unknown. [Source code]. http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_show .</p>
+					<p>[2] M Gillies, 'Anonymous Functions', 2016. [Source code]. https://www.coursera.org/learn/website-coding/lecture/LCRl9/anonymous-functions .</p>
+					<p>[3] J Resig, 'Jquery', 2009. [Source code].  http://getbootstrap.com/ . </p>
+					<h4>CSS</h4>
+					<p>[4] Sender, 'Center a column using Twitter Bootstrap 3', 2016. [Online]. Available: http://stackoverflow.com/questions/18153234/center-a-column-using-twitter-bootstrap-3 . [Accessed: 5-Jan-2017].</p>
+					<p>[5] Chris, 'Using custom fonts using CSS?', 2012. [Online]. Available: http://stackoverflow.com/questions/12144000/using-custom-fonts-using-css . [Accessed: 3-Jan-2017]. </p>
+					<p>[6] A Shevchenko, 'Arsenal', Year unknown. [Source code]. https://fonts.google.com/specimen/Arsenal?selection.family=Arsenal .</p>
+					<p>[7] D Ratigan, 'Copse', Year unknown. [Source code]. https://fonts.google.com/specimen/Copse .</p>
+					<p>[8] K-J Sjögren, 'HTML/CSS text background transparent but text not', 2013. [Online]. Available: http://stackoverflow.com/questions/15449280/html-css-text-background-transparent-but-text-not . [Accessed: 3-Jan-2017].
+					<p>[9] M Otto & J, 'Bootstrap 3', 2013. [Source code]. http://getbootstrap.com/ . </p>
+					<h4>Other</h4>
+					<p>[10] Author unknown, 'Create an HTML Contact Form for Free', Year unknown. [Source code]. https://www.123contactform.com/html-contact-form/ . </p> 
+					<p>[11] Author unknown, 'favicon.cc', Year unknown. [Online]. Available: http://www.favicon.cc/?action=import_request . [Accessed: 3-Jan-2017]. </p>
+				<div class="col-lg-4"></div>
+</div></div></div></div>
+</body>
+
+</html>
